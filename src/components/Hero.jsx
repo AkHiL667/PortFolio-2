@@ -42,7 +42,7 @@ function Hero() {
               </text>
             </svg>
           </div>
-        <img src="/src/assets/garagedoor-photo.jpg" alt="" className='w-full h-full object-cover' />
+        <img src="/garagedoor-photo.jpg" alt="portfolio photo" className="w-full h-full object-cover"/>
       </div>
     </div>
   )

@@ -66,7 +66,7 @@ function Project2() {
             </svg>
           </div>
           <img
-            src="./src/assets/movies-site.jpg"
+            src="/movies-site.jpg"
             alt=""
             className="w-full h-full object-cover"
           />

@@ -65,7 +65,7 @@ function Project3() {
             </svg>
           </div>
           <img
-            src="./src/assets/chat-bot.jpg"
+            src="/chat-bot.jpg"
             alt=""
             className="w-full h-full object-cover"
           />

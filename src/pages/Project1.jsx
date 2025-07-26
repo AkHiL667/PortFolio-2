@@ -60,7 +60,7 @@ function Project1() {
                 </text>
               </svg>
             </div>
-          <img src="./src/assets/chatting-cat.jpg" alt="" className="w-full z-[-3] h-full object-cover" />
+          <img src="/chatting-cat.jpg" alt="" className="w-full z-[-3] h-full object-cover" />
         </div>
       </div>
     </div>

@@ -25,7 +25,7 @@ function About() {
             me
           </h1>
         </div>
-        <div className="w-[80vw] ml-10 mt-10 xl:h-[35vh]  xl:mt-15 xl:ml-90">
+        <div className="w-[70vw] ml-10 mt-10 xl:h-[35vh]  xl:mt-15 xl:ml-90">
           <p className="text-sm xl:text-base xl:w-130 ">
             I'm a passionate and self-driven{" "}
             <span className="text-red-500">
@@ -70,7 +70,7 @@ function About() {
               </svg>
             </div>
             <img
-              src="./src/assets/cleared-graduated-pic.jpg"
+              src="/cleared-graduated-pic.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
