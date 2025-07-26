@@ -66,6 +66,7 @@ function Project3() {
           </div>
           <img
             src="/chat-bot.jpg"
+            loading="lazy"
             alt=""
             className="w-full h-full object-cover"
           />

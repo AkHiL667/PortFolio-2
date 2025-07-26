@@ -71,6 +71,7 @@ function About() {
             </div>
             <img
               src="/cleared-graduated-pic.jpg"
+              loading="lazy"
               alt=""
               className="w-full h-full object-cover"
             />

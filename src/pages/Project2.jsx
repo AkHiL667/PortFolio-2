@@ -67,6 +67,7 @@ function Project2() {
           </div>
           <img
             src="/movies-site.jpg"
+            loading="lazy"
             alt=""
             className="w-full h-full object-cover"
           />

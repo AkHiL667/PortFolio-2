@@ -36,7 +36,7 @@ function HeroImage() {
               </text>
             </svg>
           </div>
-          <img src="/garagedoor-photo.jpg" alt="portfolio photo" className="w-full h-full object-cover"/>
+          <img src="/garagedoor-photo.jpg" loading="lazy" alt="portfolio photo" className="w-full h-full object-cover"/>
         </div>
     </div>
   )
