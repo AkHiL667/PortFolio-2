@@ -1,12 +1,35 @@
+import { useGSAP } from '@gsap/react'
 import React from 'react'
+import { useRef } from 'react'
+import gsap from 'gsap'
 
 function Hero() {
+  const headRef = useRef(null)
+  const headRef2 = useRef(null)
+
+  useGSAP(()=>{
+    gsap.from(headRef.current,{
+      opacity:0,
+      x:-100,
+      duration:1.5,
+      stagger:0.5,
+      overflow: "hidden",
+      ease:"power2.inOut",
+    })
+    gsap.from(headRef2.current,{
+      opacity:0,
+      x:100,
+      duration:1.5,
+      overflow: "hidden",
+      ease:"power2.inOut",
+    })
+  })
   return (
     <div className='w-[90vw] h-[60vh] font-[Gloock] '>
-      <h1 className='text-4xl ml-3 md:mt-10 md:text-5xl font-semibold tracking-wider
+      <h1 ref={headRef}  className='text-4xl ml-3 md:mt-10 md:text-5xl font-semibold tracking-wider
       lg:text-8xl lg:mt-40'>Akhil</h1>
       
-      <h1 className='text-3xl ml-3 md:text-4xl font-semibold
+      <h1 ref={headRef2} className='text-3xl ml-3 md:text-4xl font-semibold
       lg:text-7xl lg:tracking-wider lg:w-[50vw] '>a software developer</h1>
       <p className='hidden lg:block text-sm ml-3 mt-4 w-[40vw] font-[Poopins] '>Software Developer from <span className='text-red-500'>Hyderabad.</span>  I build real-time, interactive, and scalable web apps with clean UI and production-grade functionality.</p>
       <div className='lg:hidden w-[70vw] relative mt-15 ml-20 h-[45vh] md:w-[45vw] md:h-[60vh] md:ml-45 md:mt-20' style={{ zIndex: 1 }}>
