@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: #E7E5D9;
+  /* background-color: #000000; */
+  overflow: hidden; /* Prevent body scroll */
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
